@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+    /*padding: 0% 25%;*/
+    margin: auto;
+    width: 600px;
+    position: absolute;
+    right: 40%;
+    line-height: 1.5;
+}
+ol{
+    border: black dashed 1px;
+}
+h1, #navn{
+    text-align: center
+}
+li{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+#mobil {
+    width: 50%;
+    height: 50%;
+}
+
+#bilde {
+    width: 75%;
+    height: 75%;
+}
+#liste_b {
+    border: none;
+}
