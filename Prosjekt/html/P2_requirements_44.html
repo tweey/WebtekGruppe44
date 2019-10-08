@@ -42,12 +42,12 @@
                 <br><br>Tekst vil ha en mørkegrå farge (gjerne #474748). Dette for at teksten ikke står i så stor kontrast til bakgrunnen og blir mer stilren og behagelig å lese.
                 <br><br>Fonten vi ønsker å bruke er ‘Arial’. Den er både web-safe og lett å lese. For overskrifter vil vi benytte oss av headings (h1, h2, h3). Annen tekst vil være mindre, men nøyaktig størrelse på dette er ikke nærmere bestemt per dags dato. 
                 <br><br>Navbaren vil være øverst til høyre, ved siden av logoen. Den skal være lett å navigere og det skal tydelig fremgå hvilken side man er på. Dette fremheves ved å ha nåværende side i fet skrift. For mobilskjermer, vil vi ha en «hamburger-meny», der navbar vil skli inn fra venstre med de ulike sidene plassert loddrett nedover. 
-                <img id="bilde" src="../img/Main.png" alt="Main">
-                <img id="bilde" src="../img/about_us.png" alt="about_us">
-                <img id="bilde" src="../img/contact.png" alt="contact">
-                <img id="bilde" src="../img/articles.png" alt="articles">
-                <img id="mobil" src="../img/Main_Mobile.png" alt="Main_Mobile">
-                <img id="mobil" src="../img/Burger_Mobile.png" alt="Burger_Mobile">
+                <img class="bilde" src="../img/Main.png" alt="Main">
+                <img class="bilde" src="../img/about_us.png" alt="about_us">
+                <img class="bilde" src="../img/contact.png" alt="contact">
+                <img class="bilde" src="../img/articles.png" alt="articles">
+                <img class="mobil" src="../img/Main_Mobile.png" alt="Main_Mobile">
+                <img class="mobil" src="../img/Burger_Mobile.png" alt="Burger_Mobile">
                 </p>
         </li>
         <li>
@@ -67,31 +67,36 @@
             <h2>Minimum Requirements</h2>
             <p>På vår nettside har vi tenkt oss følgende javascript funksjoner:
                 <br><br>Nav: For at vår navigasjonsbar skal være responsiv for mobilenheter, vil vi bruke JavaScript til dette formålet. Det vi har tenkt oss er at når enheten er en mobil, vil all teksten bli erstattet med en “burger-knapp”. Når da denne knappen blir trykket skal det komme en meny med de forskjellige subdomenene. Dette gjør vi fordi ved små skjermbredde vil skriften bli for tett til å være leselig og da blir det mer oversiktlig og lese de nedover. Vi vil legge denne koden inn i en egen fil, “nav.js” for å ikke måtte bruke samme koden flere ganger. 
-                <br><br>Mail: Ett av kravene kunden hadde for prosjektet var kontakt ved innsending av skjema. Pga. vi ikke har muligheter til å bruke midler utenfor javascript, html og css, vil vi bruke javascript til å legge opp til muligheten å sende inn skjema, og gi en boks som sier at skjemaet er innsendt. Etter endt prosjekt vil vi da koble dette opp slik at alt fungerer for kunden vår.</p>
+                <br><br>Mail: Ett av kravene kunden hadde for prosjektet var kontakt ved innsending av skjema. Pga. vi ikke har muligheter til å bruke midler utenfor javascript, html og css, vil vi bruke javascript til å legge opp til muligheten å sende inn skjema, og gi en boks som sier at skjemaet er innsendt. Etter endt prosjekt vil vi da koble dette opp slik at alt fungerer for kunden vår.
+                <br><br>Captcha: Et annet krav kunden hadde var at han ønsket en form for autentisering for at brukeren validerer seg som et menneske for å forhindre spam og liknende. Oppgaven er begrenset til JavaScript, så full autentisering er ikke mulig under oppgaven, men vi legger opp til en liknende autentisering gjort i JavaScript, og vil etter endt prosjekt fullføre dette, slik at kunden blir fornøyd.
+                <br><br>Artikler: Under “artikler” ønsket kunden at det var mulig å kunne lese en tilfeldig artikkel. Måten vi løser dette i Javascript er at vi har en liste med alle artiklene, som da vil bli tilfeldig valgt ut fra, og peke til artiklene til kunden.
+                
+            </p>
         </li>
         <li>
             <h2>Plan</h2>
-            <p style: >Mappestruktur:</p>
-            <ol id="liste_b">
-                <li id="liste_b">Hjem.html</li>
-                <li id="liste_b">Om_Oss.html</li>
-                <li id="liste_b">Kontakt.html</li>
-                <li id="liste_b">Artikler.html</li>
-                <li id="liste_b">img.css
-                    <ul><li id="liste_b">Logo.jpg</li>
-                        <li id="liste_b">Stock_1.jpg</li>
-                        <li id="liste_b">Stock_2.jpg</li>
-                        <li id="liste_b">...</li></ul>
+            <p>Mappestruktur:</p>
+            <ol class="liste_b">
+                <li class="liste_b">Hjem.html</li>
+                <li class="liste_b">Om_Oss.html</li>
+                <li class="liste_b">Kontakt.html</li>
+                <li class="liste_b">Artikler.html</li>
+                <li class="liste_b">img.css
+                    <ul><li class="liste_b">Logo.jpg</li>
+                        <li class="liste_b">Stock_1.jpg</li>
+                        <li class="liste_b">Stock_2.jpg</li>
+                        <li class="liste_b">...</li></ul>
                 </li>
-                <li id="liste_b">CSS
-                    <ul><li id="liste_b">Main.css</li>
-                        <li id="liste_b">2.css</li>
-                        <li id="liste_b">Nav.css</li></ul>
+                <li class="liste_b">CSS
+                    <ul><li class="liste_b">Main.css</li>
+                        <li class="liste_b">2.css</li>
+                        <li class="liste_b">Nav.css</li></ul>
                 </li>
-                <li id="liste_b">JS
-                        <ul id="liste_b"><li id="liste_b">Nav.js</li>
-                            <li id="liste_b">1.js</li>
-                            <li id="liste_b">2.js</li></ul>
+                <li class="liste_b">JS
+                        <ul class="liste_b">
+                            <li class="liste_b">Nav.js</li>
+                            <li class="liste_b">1.js</li>
+                            <li class="liste_b">2.js</li></ul>
                     </li>
 
             </ol>
