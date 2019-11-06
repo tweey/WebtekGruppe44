@@ -1,0 +1,40 @@
+html {
+    display: flex;
+    justify-content:center;
+}
+body {
+    background-color: #fff;
+    /*padding: 0% 25%;*/
+    margin: auto;
+    width:80%;
+    position: absolute;
+    /*right: 40%;*/
+    line-height: 1.5;
+}
+ol{
+    border: black dashed 1px;
+}
+h1, #navn{
+    text-align: center
+}
+li{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.mobil {
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+}
+
+.bilde {
+    width: 75%;
+    height: 75%;
+}
+.liste_b {
+    border: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

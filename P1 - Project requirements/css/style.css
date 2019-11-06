@@ -1,0 +1,13 @@
+body {
+    background-color: #fff;
+    padding: 0% 12%;
+}
+ol{
+    border: black dashed 1px;
+}
+h1, #navn{
+    text-align: center
+}
+li{
+    border-bottom: 1px solid grey;
+}
