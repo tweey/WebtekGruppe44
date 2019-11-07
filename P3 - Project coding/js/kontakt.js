@@ -3,6 +3,6 @@
 var kontaktinfo = document.querySelector("#kontaktinfo");
 
 function bekreftelse(){
-    alert("Takk for din henvendelse! Du vil bli kontaktet så fort som mulig! Trykk på den linken for å gå tilbake: <a href="index.html"></a>")
+    alert("Takk for din henvendelse! Du vil bli kontaktet så fort som mulig!")
 }
 kontaktinfo.addEventListener('submit',bekreftelse,true);
