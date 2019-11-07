@@ -14,7 +14,7 @@ nav {
 	position: relative;
 	display: flex;
 	list-style-type: none;
-	margin: 0 250px;
+	margin: 0 15%;
 	padding: 0;
 }
 
@@ -25,7 +25,7 @@ nav {
 
 #navbar {
 	position: relative;
-	margin: 0 30px;
+	margin: 0 3%;
 }
 
 #navbar > li {
@@ -49,8 +49,6 @@ nav {
 	text-decoration: underline;
 }
 
-
-
 #navbar > li .active {
 	font-weight: bold;
 }
@@ -61,7 +59,6 @@ nav {
 	margin: 70px auto;
 
 }
-
 
 #main-slogan {
 	font-family: arial, sans-serif;
@@ -87,14 +84,15 @@ nav {
 }
 
 table {
-	text-align:center; 
-    margin-left:auto; 
-    margin-right:auto; 
-    width: 90%;
+	text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 75%;
     border-collapse: collapse;
+    border-top: 1px solid black;
 }
 
-tr {
+td {
 	border-bottom: 1px solid black;
 	line-height: 1.8em;	
 }
