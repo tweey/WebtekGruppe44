@@ -2,62 +2,91 @@
 <html lang="nb" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <title>Kontaktinformasjon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="kontakt.css">
-
+    <title>Kontakt oss</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel = "stylesheet" href="css/kontakt.css">
+    <link rel = "stylesheet" href="css/style.css">
 </head>
 
 <body>
+    	<nav>
+                <img id="logo" src="img/logo.png" alt="AtilF logo">
+                <ul id="navbar">
+                    <li><a href="index.html" class="active">Hjem</a></li>
+                    <li><a href="om_oss.html">Om oss</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="artikler.html">Artikler</a></li>
+                </ul>
+            </nav>
+<br>
+<br>
+<br>
+<br>
 
+<h1 id="kontaktinformasjon"> Kontaktinformasjon </h1>
 
-   <h1> Kontaktinformasjon </h1>
+<div class ="wrapper">
+<form>
+    <div class="row">
+    <div class="col-25">
+    <label for="fnavn">Fornavn*</label>
+    </div>
+    <div class="col-75">
+    <input type="text" id="fnavn" name="fornavn" placeholder="Fornavn" required>
+    </div>
+    </div>
 
-<form> 
-<div class="wrapper">
-<div class="contact-us">
-<div class="input-fields">
+    <div class="row">
+        <div class="col-25">
+                <label for="enavn">Etternavn*</label>
+        </div>
+        <div class="col-75">
+                <input type="text" id="enavn" name="etternavn" placeholder="Etternavn" required>
+        </div>
+    </div>
 
-<div class="items">
-<label for="name" class="label">Fornavn*</label> 
- <input id="name" type="text" placeholder="Fornavn" required>
- </div>
+    <div class="row">
+        <div class="col-25">
+                <label for="epost">E-post*</label>
+        </div>
+        <div class="col-75">
+                <input type="email" id="epost" name="e-post" placeholder="Din e-post" required>
+        </div>
+    </div>
 
- <div class="items">
- <label for="name" class="label">Etternavn*</label>
- <input type="text" placeholder="Etternavn" required>
- </div>
+    <div class="row">
+        <div class="col-25">
+                <label for="telefon">Telefonnummer*</label>
+        </div>
+        <div class="col-75">
+                <input type="tel" id="telefon" name="telefonnummer" placeholder="Ditt telefonnummer" required>
+        </div>
+    </div>
 
- <div class="items">
- <label for="email" class="label">E-post*</label>
- <input id="email" type="email" placeholder="Din e-post" required>
- </div>
+    <div class="row">
+        <div class="col-25">
+                <label for="emne">Emne*</label>
+        </div>
+        <div class="col-75">
+                <input type="text" id="emne" name="emne" placeholder="Emne" required>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-25">
+                <label for="melding">Melding</label>
+        </div>
+        <div class="col-75">
+                <textarea id="melding" rows="21" placeholder="Skriv noe.."></textarea>
+        </div>
+    </div>
 
-<div class="items">
-<label for="tel" class="label">Telefonnummer*</label>
-    <input id="tel" type="tel" placeholder="Ditt telefonnummer" required>
-</div>
-
-<div class="items">
-<label for="emne" class="label">Emne*</label>
-    <input id="emne" type="text" placeholder="Emne" required>
-</div>
-
-<div class="items">
-    <label for="melding" class="label">Melding</label>
-    <textarea id="melding" rows="10" cols="30" placeholder="Melding"></textarea>
-</div>
-
-<label>
-    <input type="submit" value="Send inn">
-</label>
-
-</div>
-</div>
-</d iv>
+    <div class="row">
+        <input type="submit" value="Send inn">
+    </div>
 
 </form>
-
+</div>
 
   </body>
 </html>
