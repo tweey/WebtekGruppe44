@@ -56,29 +56,45 @@ nav {
 }
 
 #main {
-	font-family: arial, sans-serif;
-	color: #3b3b3d;
 	max-width: 700px;
 	position: relative;
 	margin: 70px auto;
 
 }
 
-#slogan {
-	font-size: 50px;
 
+#main-slogan {
+	font-family: arial, sans-serif;
+	font-size: 350%;
+	color: #3b3b3d;
+	float: left;
+	margin: 0 -23%;
 }
 
 #main-text {
-
+	font-family: arial, sans-serif;
+	font-size: 90%;
+	float: right;
+	margin: 8% -20%;
+	width: 50%;
 
 }
 
-.divider {
-	font-size: 35px;
-	position: absolute;
-	right: -1px;
-	top: 19px;
+#articles {
+	clear: both;
+	width: 98%;
+	margin: 1%;
+}
+
+table#table1 {
+	text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 90%;
+}
+
+tr, td {
+	text-align: left;
 }
 
 table, td {
