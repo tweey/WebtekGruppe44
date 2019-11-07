@@ -63,6 +63,7 @@ nav {
 #main-slogan {
 	font-family: arial, sans-serif;
 	font-size: 350%;
+	letter-spacing: 0.005em;
 	color: #3b3b3d;
 	float: left;
 	margin: 0 -23%;

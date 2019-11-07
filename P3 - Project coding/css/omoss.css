@@ -1,15 +1,12 @@
-html {
-  	background-color: #F5F5DC;
-    color: #474748;
-    font-family: arial, helvetica, serif;
-}
 .header {
   height: 100px;
 }
-body {
+
+/* body {
   margin-left: 150px;
   margin-right: 150px;
-}
+} */
+
 .bildebox {
   float: left;
   margin-right: 30px;
