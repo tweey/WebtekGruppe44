@@ -88,47 +88,22 @@ table {
     margin-left: auto; 
     margin-right: auto; 
     width: 75%;
-
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-
     border-collapse: collapse;
-    border-top: 3px solid black;
-    border-color: #474748;
+    border: 1px solid black;
 }
 
 td {
-	line-height: 1.8em;	
 }
 
 tr, td {
+	border: 1px solid black;
 	text-align: left;
 	font-size: 1.1em;
 	padding: 15px;
 }
 
-tr:nth-child(-n+2) > td {
-	border-bottom: 2px solid black;
-	border-color: #BBBBBB;
-
-}
-
-.article-date {
-	color: #BBBBBB;
-}
-
 .article-title {
-	
-}
-
-.article-dl > a {
-	color: #BBBBBB;
-	
-	text-decoration: none;
-}
-
-.article-dl > a:visited {
-	color: #BBBBBB;
+	font-weight: bold;
 }
 
 caption {
