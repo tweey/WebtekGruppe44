@@ -86,17 +86,31 @@ nav {
 	margin: 1%;
 }
 
-table#table1 {
+table {
 	text-align:center; 
     margin-left:auto; 
     margin-right:auto; 
     width: 90%;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid black;
+	line-height: 1.8em;	
 }
 
 tr, td {
 	text-align: left;
+	font-size: 1.1em;
+	padding: 15px;
 }
 
-table, td {
-	border: 1px solid black;
+.article-title {
+	font-weight: bold;
+}
+
+caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.15em;
 }
