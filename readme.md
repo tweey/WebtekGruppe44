@@ -1,1 +1,1 @@
-Just a repo for our project in webtek
+A repo for our webtek project
