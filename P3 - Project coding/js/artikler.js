@@ -1,3 +1,6 @@
+// Dette scriptet skal omdirigere brukeren til en tilfeldig valgt nettside når vedkommende trykker på knappen
+
+// Starter med å lage en array for alle artikkel-lenkene
 var articles = ['http://jaatun.no/papers/2005/oban_nordsec.pdf',
         'http://jaatun.no/papers/2006/kerberos_ifipsec.pdf',
         'http://jaatun.no/papers/2008/testing.pdf',
@@ -71,6 +74,7 @@ var articles = ['http://jaatun.no/papers/2005/oban_nordsec.pdf',
         "http://jaatun.no/papers/2019/Measuring-Developers'-Software-Security-Skills-Usage-and-Training-Needs.pdf",
         'http://jaatun.no/papers/2019/ICS_protectionpoker_final_author.pdf'];
 
+// Når randomArticle() blir kjørt, generer ett tilfeldig tall opp til 72, og omdiriger bruker til gitt lenke i array
 function randomArticle() {
         var randomNumber = Math.round(Math.random() * 72);
 
