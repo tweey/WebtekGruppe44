@@ -10,11 +10,13 @@ body, html {
 	padding: 0;
 	height: 100%;
 }
+
 #main {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
+
 #main-slogan {
 	font-family: arial, sans-serif;
 	color: #3b3b3d;
@@ -24,10 +26,12 @@ body, html {
 	flex-direction: column;
 	margin-left: 10%;
 }
+
 #slogan{
 	margin: 3%;
 	font-size: 400%;
 }
+
 #main-text {
 	font-family: arial, sans-serif;
 	font-size: 90%;
@@ -87,6 +91,7 @@ caption {
 	font-weight: bold;
 	font-size: 1.15em;
 }
+
 @media screen and (max-width: 900px) {
 	#main {
 		display: flex;
