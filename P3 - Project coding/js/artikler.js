@@ -1,4 +1,4 @@
-// Dette scriptet skal omdirigere brukeren til en tilfeldig valgt nettside når vedkommende trykker på knappen
+// Denne funksjonen skal omdirigere brukeren til en tilfeldig valgt nettside når vedkommende trykker på knappen
 
 // Starter med å lage en array for alle artikkel-lenkene
 var articleLinks = ['http://jaatun.no/papers/2005/oban_nordsec.pdf',
