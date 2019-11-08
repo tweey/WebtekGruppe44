@@ -11,10 +11,9 @@ body, html {
 	height: 100%;
 }
 #main {
-	position: relative;
 	display: flex;
 	flex-direction: row;
-
+	align-items: center;
 }
 #main-slogan {
 	font-family: arial, sans-serif;
@@ -33,6 +32,9 @@ body, html {
 	font-family: arial, sans-serif;
 	font-size: 90%;
 	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 25px 10px;
 }
 
 table {
@@ -83,4 +85,17 @@ caption {
 	text-align: left;
 	font-weight: bold;
 	font-size: 1.15em;
+}
+@media screen and (max-width: 900px) {
+	#main {
+		display: flex;
+		flex-direction: column;
+	}
+	#main-slogan {
+		width: 100%;
+		margin-left: 25%;
+	}
+	#main-text {
+		width: 80%;
+	}
 }
