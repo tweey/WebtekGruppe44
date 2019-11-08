@@ -4,26 +4,37 @@
 	<meta charset="utf-8">
 	<title>AtilF</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
 	
 	<nav>
-		<img id="logo" src="img/logo.png" alt="AtilF logo">
+		<div id="nav-img">
+			<img id="logo" src="img/logo.png" alt="AtilF logo">
+		</div>
 		<ul id="navbar">
-			<li><a href="index.html" class="active">Hjem</a></li>
-			<li><a href="omoss.html">Om oss</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
-			<li><a href="artikler.html">Artikler</a></li>
+				<li><a href="index.html" class="active">Hjem</a></li>
+				<li><a href="omoss.html">Om oss</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="artikler.html">Artikler</a></li>
 		</ul>
+		</div>
+		<div id="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
 	</nav>
 	
 	<section id="main">
-		<aside id="main-slogan">
-			<h1 id="slogan">Rask, <br> pålitelig, <br> eksamenssensur. </h1>
-		</aside>
+		<div id="main-slogan">
+			<h1 id="slogan">Rask,</h1>
+			<h1 id="slogan"> pålitelig,</h1>
+			<h1 id="slogan">eksamenssensur. </h1>
+		</div>
 
 		
-		<aside id="main-text">
+		<div id="main-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -35,7 +46,7 @@
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. 
 			</p>
-		</aside>
+		</div>
 	</section>
 
 	<div id="articles">
@@ -63,6 +74,6 @@
 		</table>
 	</div>
 
-
+<script src="js/nav.js"></script>
 </body>
 </html>
