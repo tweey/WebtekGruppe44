@@ -86,7 +86,7 @@ function randomArticle() {
 const articles = [
         {
                 title: "Collaborative Security Risk Estimation in Agile Software Development",
-                link: "http://jaatun.no/papers/2019/ICS_protectionpoker_final_author.pdf'",
+                link: "http://jaatun.no/papers/2019/ICS_protectionpoker_final_author.pdf",
                 publishedDate: "2019-10-01",
         },
         {
