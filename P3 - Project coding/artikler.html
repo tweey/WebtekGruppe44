@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Martins Artikler</title>
+    <title>Artikler</title>
 </head>
 <body>
 
@@ -12,12 +12,12 @@
             <img id="logo" src="img/logo.png" alt="AtilF logo">
             <ul id="navbar">
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="om_oss.html">Om oss</a></li>
+                <li><a href="omoss.html">Om oss</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
                 <li><a href="artikler.html" class="active">Artikler</a></li>
             </ul>
     </nav>
-    <br><br><br><br><br>
+
     <div id='container'>
         <div id='main'>
             <h1>Artikler</h1>
@@ -27,7 +27,7 @@
             <div>
 
                 <form action="">
-                <input type="button" value='funk for faen' onclick="randomArticle()">
+                <input type="button" value='En tilfeldig artikkel' onclick="randomArticle()">
                 </form>
             </div>
             <div id="articles">
@@ -164,7 +164,7 @@
 
                     <li>2007
                         <ul>
-                            <p>No articles!</p>
+                            <li>No articles were published this year.</li>
                         </ul>
                     </li>
 
@@ -189,7 +189,14 @@
             </div>
         </div>
     </div>
-    <footer id='bunn'>
+
+    <table id="artikler-tabell">
+        <caption>Artikler</caption>
+        <tbody id="artikler-tabell-body">
+        </tbody>
+    </table>
+   
+   <!-- <footer id='bunn'>
         <img src="img/logo.png" alt="logo" id='logo1' >
         <ul id="navbar_bunn">
                 <li><a href="index.html">Hjem</a></li>
@@ -197,9 +204,8 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
                 <li><a href="test_1.html">Artikler</a></li>
         </ul>
-    </footer>
+    </footer> -->
 
-    <script src="js/randomarticle.js" type="text/javascript"></script>
     <script src='js/artikler.js'></script>
 
 </body>
