@@ -59,6 +59,33 @@ input[type=submit]{
     clear: both;
 }
 
+input:focus:invalid{
+    outline-style: none;
+    box-shadow: none;
+}
+
+input:focus:valid{
+    outline-style: none;
+    box-shadow: none;
+}
+
+#epost:focus:invalid {
+    border: 1px solid red;
+}
+
+#epost:focus:valid {
+    border: 1px solid green;
+}
+
+#telefon:focus:invalid {
+    border: 1px solid red;
+}
+
+#telefon:focus:valid {
+    border: 1px solid green;
+}
+
+
 h1{
     width:80%
 }
