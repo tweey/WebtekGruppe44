@@ -4,10 +4,12 @@
 	box-sizing: border-box;
 }
 
-body {
+body, html {
 	background-color: #f9f9f1;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
-
 #main {
 	position: relative;
 	display: flex;
@@ -65,10 +67,6 @@ tr:nth-child(-n+2) > td {
 
 .article-date {
 	color: #BBBBBB;
-}
-
-.article-title {
-	
 }
 
 .article-dl > a {
