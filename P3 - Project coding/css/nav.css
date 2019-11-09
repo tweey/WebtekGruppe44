@@ -49,7 +49,8 @@ nav {
 }
 
 #navbar > li .active {
-	font-weight: bold;
+	text-decoration: underline;
+	pointer-events: none;
 }
 @media screen and (max-width: 900px) {
 	body {
