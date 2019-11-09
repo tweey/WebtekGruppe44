@@ -95,6 +95,12 @@ caption {
 	font-size: 1.15em;
 }
 
+.button{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #button-articles {
 	border-radius: 5px;
 	padding: 10px 20px;
