@@ -123,12 +123,14 @@ for (var i=0; i < articles.length; i++) {
 
         // Appender publishedData i array til HTML
         const publishedElement = document.createElement('td');
+        publishedElement.classList.add("article-date");
         publishedElement.appendChild(document.createTextNode(article.publishedDate));
         tr.appendChild(publishedElement);
         tableBody.appendChild(tr);
 
         // Appender title i array til HTML
         const titleElement = document.createElement('td');
+        titleElement.classList.add("article-title");
         titleElement.appendChild(document.createTextNode(article.title));
         tr.appendChild(titleElement);
         tableBody.appendChild(tr);
@@ -136,6 +138,7 @@ for (var i=0; i < articles.length; i++) {
         // Appender link i array til HTML
         const linkElement = document.createElement('td');
         const aEl = document.createElement('a');
+        linkElement.classList.add("article-dl");
         aEl.href = article.link;
         aEl.innerHTML = "Last ned";
         aEl.target = "_blank";
