@@ -1,102 +1,72 @@
-body{
-    background-color:#f9f9f1;
-    font-family:Arial;
+*{
+    box-sizing: border-box;
 }
 
+input[type=text],
+input[type=tel],
+input[type=email],
 textarea{
-    width:20%;
-    padding: 3px;
-    border:1px solid #ccc;
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    margin-top:6px;
+    margin-bottom: 16px;
     resize:vertical;
-    height:100px;
-}
-h1{
-    margin:6%;
-    padding:auto;
-    margin-bottom:0;
-    position:relative;
-    margin-left: 1%;
-}
-
-input[type=text],textarea{
-    width:20%;
-    padding:5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-input[type=email]{
-    width:20%;
-    padding:5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-input[type=tel]{
-    width:20%;
-    padding:5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-label{
-    padding: 5px 5px 5px 0;
-    display:inline-block;
 }
 
 input[type=submit]{
-    background-color:#000000;
+    background-color: #000000; 
     color:white;
-    padding: 5px 15px;
+    padding:10px 20px;
+    margin:auto;
     border:none;
-    border-radius: 4px;
     cursor:pointer;
-    float:left;
+}
+
+input[type=submit]:hover{
+    background-color:#45a049;
 }
 
 .wrapper{
     border-radius: 5px;
-    padding:20px;
-    margin-bottom:auto;
-    position:relative;
+    padding:10px;
 }
 
-.col-75{
+.column{
     float:left;
-    width:105%;
-    margin-top: 6px;
+    width:50%;
+    margin-top:6px;
+    padding:20px;
 }
 
 .row:after{
     content: "";
-    
-    clear: both;
+    display:table;
+    clear:both;
 }
 
-input:focus:invalid{
+
+input[type=email]:focus:valid{
     outline-style: none;
     box-shadow: none;
 }
 
-input:focus:valid{
-    outline-style: none;
-    box-shadow: none;
+#epost:focus:invalid, 
+#mobil:focus:invalid{
+    border-color:red;
+    border-width:1px;
 }
 
-#epost:focus:invalid, #telefon:focus:invalid{
-    border: 1px solid red;
-}
-
-#epost:focus:valid, #telefon:focus:valid{
+#epost:focus:valid, 
+#mobil:focus:valid{
     border: 1px solid green;
 }
 
-@media screen and (max-width:586px){
-   h1,body, #kontaktinformasjon, .col-25, .col-75, input[type=submit]{
-        width: 80%;
+@media screen and (max-width:900px){
+    .column,input[type=submit]{
+        width:100%;
         margin-top:0;
     }
 }
+
+
