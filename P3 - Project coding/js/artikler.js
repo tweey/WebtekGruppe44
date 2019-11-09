@@ -135,7 +135,11 @@ for (var i=0; i < articles.length; i++) {
 
         // Appender link i array til HTML
         const linkElement = document.createElement('td');
-        linkElement.appendChild(document.createTextNode(article.link));
+        const aEl = document.createElement('a');
+        aEl.href = article.link;
+        aEl.innerHTML = "Last ned";
+        aEl.target = "_blank";
+        linkElement.appendChild(aEl);
         tr.appendChild(linkElement);
         tableBody.appendChild(tr);
 
