@@ -1,6 +1,6 @@
 // Viser en melding som bekreftelse når kunden har tastet inn informasjon:
 
-var kontaktinfo = document.querySelector("#kontaktinfo");
+var kontaktinfo = document.querySelector(".kontakt");
 
 function bekreftelse(){
     alert("Din henvendelse er mottatt!")
