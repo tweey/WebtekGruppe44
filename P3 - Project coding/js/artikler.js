@@ -108,7 +108,63 @@ const articles = [
                 title: "A Secure MANET Routing Protocol for Crisis Situations",
                 link: "http://jaatun.no/papers/2018/A-Secure-MANET-Routing-Protocol-for-Crisis-Situations.pdf",
                 publishedDate: "November 2018",
-        }
+        },
+        {
+                title: "DevOps for Better Software Security in the Cloud",
+                link: "http://jaatun.no/papers/2017/secdevops-author.pdf",
+                publishedDate: "September 2017",
+        },
+        {
+                title: "Accountability Requirements for the Cloud",
+                link: "http://jaatun.no/papers/2017/cloudreq-cloudcom.pdf",
+                publishedDate: "August 2017",
+        },
+        {
+                title: "Accountability Requirements for the Cloud",
+                link: "http://jaatun.no/papers/2017/cloudreq-cloudcom.pdf",
+                publishedDate: "Juni 2017",
+        },
+        {
+                title: "Cyber Security Incident Management in the Aviation Domain",
+                link: "http://jaatun.no/papers/2016/aviation-incident.pdf",
+                publishedDate: "Oktober 2016",
+        },
+        {
+                title: "How Much Cloud Can You Handle?",
+                link: "http://jaatun.no/papers/2015/cloudincident-nonblind-as-submitted.pdf",
+                publishedDate: "August 2015",
+        },
+        {
+                title: "Threat modeling of AMI",
+                link: "http://jaatun.no/papers/2013/AMI-threat-critis.pdf",
+                publishedDate: "April 2013",
+        },
+        {
+                title: "Cyber Security Challenges in Smart Grids",
+                link: "http://jaatun.no/papers/2011/Cyber-Security-Challenges.pdf",
+                publishedDate: "Desember 2011",
+        },
+        {
+                title: "A Probabilistic Approach to Information Control",
+                link: "http://jaatun.no/papers/2010/probabilistic-JIT.pdf",
+                publishedDate: "Oktober 2010",
+        },
+        {
+                title: "Learning from Software Security Testing",
+                link: "http://jaatun.no/papers/2008/testing.pdf",
+                publishedDate: "April 2008",
+        },
+        {
+                title: "Secure Fast Handover in an Open Broadband Access Network using Kerberos-style Tickets",
+                link: "http://jaatun.no/papers/2006/kerberos_ifipsec.pdf",
+                publishedDate: "Juli 2006",
+        },
+        {
+                title:"A Security Architecture for an Open Broadband Access Network",
+                link: "http://jaatun.no/papers/2005/oban_nordsec.pdf",
+                publishedDate: "October 2005",
+        },
+
 ]
 
 // Henter tbody fra HTML
