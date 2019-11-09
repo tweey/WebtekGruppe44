@@ -52,10 +52,11 @@ input[type=email]:focus:valid{
     box-shadow: none;
 }
 
-#epost:focus:invalid, 
-#mobil:focus:invalid{
+#epost:focus, 
+#mobil:focus{
     border-color:red;
     border-width:1px;
+    outline: none;
 }
 
 #epost:focus:valid, 
