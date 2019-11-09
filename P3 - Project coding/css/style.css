@@ -125,6 +125,18 @@ caption {
 	background-color: #4EA071;
 }
 
+#container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 40px;
+  }
+
+#articles_info{
+	width:60%;
+}
+
 @media screen and (max-width: 900px) {
 	#main {
 		display: flex;
