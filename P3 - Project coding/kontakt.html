@@ -13,7 +13,7 @@
 
 	<nav>
 	        <div id="nav-img">
-			<a href="index.html"><img id="logo" src="img/logo.png" alt="AtilF logo"></a>
+			<img id="logo" src="img/logo.png" alt="AtilF logo">
 		</div>
 		<ul id="navbar">
 				<li><a href="index.html">Hjem</a></li>
@@ -29,70 +29,34 @@
 		</div>
 	</nav>
 
+<div class="wrapper">
+                <h1>Kontaktinformasjon</h1>
+                <p>Nedenfor kan du legge inn personlig informasjon for å komme i kontakt med oss.</p>
+        <div class="row">
+                <div class="column">
+                        <form class="kontakt">
+                                <label for="fnavn">Fornavn*</label>
+                                <input type="text" id="fnavn" name="fornavn" placeholder="Ola" required>
 
-<h1>Kontaktinformasjon </h1>
+                                <label for="enavn">Etternavn*</label>
+                                <input type="text" id="enavn" name="etternavn" placeholder="Nordmann" required>
 
-<div class ="wrapper">
-<form id="kontaktinfo">
-    <div class="row">
-    <div class="col-25">
-    <label for="fnavn">Fornavn*</label>
-    </div>
-    <div class="col-75">
-    <input type="text" id="fnavn" name="fornavn" placeholder="Fornavn" required>
-    </div>
-    </div>
+                                <label for="epost">E-post*</label>
+                                <input type="email" id="epost" name="e-post" placeholder="eksempel@domene.no" required>
 
-    <div class="row">
-        <div class="col-25">
-                <label for="enavn">Etternavn*</label>
-        </div>
-        <div class="col-75">
-                <input type="text" id="enavn" name="etternavn" placeholder="Etternavn" required>
-        </div>
-    </div>
+                                <label for="mobil">Mobilnr*</label>
+                                <input type="tel" id="mobil" name="mobilnummer" placeholder="47556935" minlength="8" maxlength="8" required>
 
-    <div class="row">
-        <div class="col-25">
-                <label for="epost">E-post*</label>
-        </div>
-        <div class="col-75">
-                <input type="email" id="epost" name="e-post" placeholder="eksempel@domene.no" required>
-        </div>
-    </div>
+                                <label for="emne">Emne*</label>
+                                <input type="text" id="emne" name="emne" placeholder="IT2805" required>
 
-    <div class="row">
-        <div class="col-25">
-                <label for="telefon">Telefonnummer*</label>
+                                <label for="melding">Melding</label>
+                                <textarea id="melding" name="melding" placeholder="Skriv noe.."></textarea>
+                                
+                                <input type="submit" value="Send inn">
+                        </form>
+                </div>
         </div>
-        <div class="col-75">
-                <input type="tel" id="telefon" name="telefonnummer" placeholder="47556935" pattern="[0-9]{3)-[0-9]{2}-[0-9]{3}" minlength="8" maxlength="8" required>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-25">
-                <label for="emne">Emne*</label>
-        </div>
-        <div class="col-75">
-                <input type="text" id="emne" name="emne" placeholder="Emne" required>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-25">
-                <label for="melding">Melding</label>
-        </div>
-        <div class="col-75">
-                <textarea id="melding" rows="21" placeholder="Skriv noe.."></textarea>
-        </div>
-    </div>
-
-    <div class="row">
-        <input type="submit" value="Send inn">
-    </div>
-
-</form>
 </div>
 <script src="js/kontakt.js"></script>
 <script src="js/nav.js"></script>
