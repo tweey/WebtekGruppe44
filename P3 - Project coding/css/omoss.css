@@ -1,18 +1,42 @@
-.header {
-  height: 100px;
+main {
+  display: flex;
+  flex-direction: column;
+}
+#topp {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#ombilde {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+#ombilde img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
-/* body {
-  margin-left: 150px;
-  margin-right: 150px;
-} */
-
-.bildebox {
-  float: left;
-  margin-right: 30px;
-  width: 300px;
+#omfakta {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
 }
-.tekstboks {
-  float: left;
-  width: 600px;
+#bunn {
+  padding: 70px 40px;
+}
+@media screen and (max-width: 900px) {
+  #topp {
+    flex-direction: column;
+  }
+  #ombilde {
+    width: 100vw;
+  }
+  #omfakta {
+    width: 100vw;
+    align-items: center;
+  }
 }
