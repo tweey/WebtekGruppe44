@@ -26,8 +26,25 @@ main {
   justify-content: center;
 }
 #bunn {
+  display: flex;
+  flex-direction: row;
   padding: 70px 40px;
 }
+#bunntxt {
+  width: 60%;
+}
+#mapbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+#map {
+  width: 80%;
+  height: 200px
+}
+
 @media screen and (max-width: 900px) {
   #topp {
     flex-direction: column;
