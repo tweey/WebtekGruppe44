@@ -120,11 +120,6 @@ const articles = [
                 publishedDate: "August 2017",
         },
         {
-                title: "Accountability Requirements for the Cloud",
-                link: "http://jaatun.no/papers/2017/cloudreq-cloudcom.pdf",
-                publishedDate: "Juni 2017",
-        },
-        {
                 title: "Cyber Security Incident Management in the Aviation Domain",
                 link: "http://jaatun.no/papers/2016/aviation-incident.pdf",
                 publishedDate: "Oktober 2016",
