@@ -1,3 +1,4 @@
+// Lager kart fra koodinater og google sin API
 function initMap() {
     let kontor = {lat: 63.3934638, lng: 10.4065978}
 
