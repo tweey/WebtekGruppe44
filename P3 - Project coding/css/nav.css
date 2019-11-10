@@ -34,7 +34,7 @@ nav {
 }
 #navbar > li {
 	list-style: none;
-	margin: 0 20px;
+	padding: 0 20px;
 }
 
 #navbar > li > a {
@@ -63,7 +63,7 @@ nav {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 50vw;
+		min-width: 50vw;
 		z-index: 1;
 		transform: translateX(-100%);
 		transition: transform 0.5s ease-in;

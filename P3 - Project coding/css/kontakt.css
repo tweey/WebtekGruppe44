@@ -6,18 +6,13 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper{
-    margin-top:8%;
-    width: 85%;
-    max-width:1000px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     padding: 30px 40px;
-    box-sizing:border-box;
+    width: 100%;
     text-align:center;
     box-shadow: 0 0 20px #000000000b3;
 }
@@ -66,10 +61,6 @@ textarea{
 #btn:hover{
     background-color:#45a049;
 }
-
-
-
-
 
 input[type=email]:focus:valid{
     outline-style: none;
