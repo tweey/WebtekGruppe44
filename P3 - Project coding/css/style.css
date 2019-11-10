@@ -33,7 +33,7 @@ body, html {
 }
 
 /* Further positioning of the slogan */
-#slogan{
+.slogan{
 	margin: 3%;
 	font-size: 400%;
 }
