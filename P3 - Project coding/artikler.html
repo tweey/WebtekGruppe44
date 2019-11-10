@@ -30,189 +30,19 @@
     <div id='container'>
         <div id='articles-info'>
             <h1>Artikler</h1>
-            <div>
-                <p>Her kan du se en liste over artikler skrevet av Martin Gilje Jaatun. Om du vil lese en tilfeldig artikkel, kan du klikke på knappen under! Om du vil laste ned en artikkel, klikk på 'last ned' knappen inne i pdf-dokumentet.
-                </p>
+            <p>Her kan du se en liste over artikler skrevet av Martin Gilje Jaatun. Om du vil lese en tilfeldig artikkel, kan du klikke på knappen under! Om du vil laste ned en artikkel, klikk på 'last ned' knappen inne i pdf-dokumentet. </p>
             
             <div class="button">
-                <input type="button" id="button-articles" value='Generer tilfeldig artikkel' onclick="randomArticle()">   
-            </div>
-
-            <!--<div id="articles">
-                <ul>
-                    <li>2019
-                        <ul class='articles_list'>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2019/ICS_protectionpoker_final_author.pdf'>Collaborative Security Risk Estimation in Agile Software Development</a></li>
-                            <li><a target='_blank' href="http://jaatun.no/papers/2019/Measuring-Developers'-Software-Security-Skills-Usage-and-Training-Needs.pdf">Measuring Developers’ Software Security Skills, Usage, and Training Needs</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2019/Threat-Modeling-in-Agile-Software-Development.pdf'>Threat Modeling in Agile Software Development</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2019/security-intention.pdf'>The Security Intention Meeting Series as a way to increase visibility of software security decisions in agile development projects</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2019/smartgridrisk.pdf'>Is a Smarter Grid Also Riskier?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2019/understanding-protectionpoker.pdf'>Understanding challenges to adoption of the Protection Poker software security game</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2018
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/A-Secure-MANET-Routing-Protocol-for-Crisis-Situations.pdf'>A Secure MANET Routing Protocol for Crisis Situations</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/Canonical-action-research-Cruzes_Jaatun_Oyetoyan_final.pdf'>Challenges and Approaches of Performing Canonical Action Research in Software Security</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/DASC-How-Low-Can-You-go-paper.pdf'>Safety Critical Software and Security – How Low Can You Go? </a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/Threat_modeling-aswec-2018_final.pdf'>Challenges and Experiences with Applying Microsoft Threat Modeling in Agile Development Projects</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/devsecops-incident-submitted-nonblind.pdf'>Software Security Activities that Support Incident Managementin Secure DevOps</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/eop_hotsos.pdf'>Understanding challenges to adoption of the Microsoft Elevation of Privilege game</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/guidinglights.pdf'>Guiding Lights for Cloud Accountability</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/owasp-paper.pdf'>OWASP Top 10 - Do Startups Care?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2018/self-healing.pdf'>Cyber Security Considerations for Self-healing Smart Grid Networks</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2017
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2017/Risk-Centric-Activities-in-Secure-Software-Development-in-Public-Organisations.pdf'>Risk Centric Activities in Secure Software Development in Public Organisations</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2017/cloudreq-cloudcom.pdf'>Accountability Requirements for the Cloud</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2017/lightweight-measurement-swsec.pdf'>A Lightweight Measurement of Software Security Skills, Usage and Training Needs in Agile Teams</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2017/outsourcing-blueprint.pdf'>Could the Outsourcing of Incident Response Management provide a Blueprint for Managing Other Cloud Security Requirements?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2017/secdevops-author.pdf'>DevOps for Better Software Security in the Cloud</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2016
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/aviation-incident.pdf'>Cyber Security Incident Management in the Aviation Domain</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/i4cs.pdf'>Zebras and Lions:  Better Incident Handling Through Improved Cooperation</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/incident-management-tool.pdf'>Security Incident Information Exchange for Cloud Services</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/protection-poker-profes.pdf'>Playing Protection Poker for Practical Software Security</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/securecloud.pdf'>Securing Big Data in the Cloud by Protected Mapping over Multiple Providers</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/strongaccountability-journal.pdf'>Enhancing Accountability in the Cloud</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/swsec-skills.pdf'>An Empirical Study on the Relationship between Software Security Skills, Usage and Training needs in Agile Settings</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/temporal.pdf'>I’ll Trust You – For Now</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2016/transparency.pdf'>Accountability through Transparency for Cloud Customers</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2015
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2015/Cruzes_Jaatun_Cloud%20Provider%20Transparency.pdf'>Cloud Provider Transparency: A View from Cloud Customers</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2015/cloudincident-nonblind-as-submitted.pdf'>How Much Cloud Can You Handle?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2015/modenhet.pdf'>Software Security Maturityin Public Organisations</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2015/outsource-authorversion.pdf'>Passing the Buck: Outsourcing Incident Response Managemen</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2014
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2014/HealthCareCloud.pdf'>Healthcare Services in the Cloud - Obstacles to Adoption, and a Way Forward</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2014/guidinglights.pdf'>Towards Strong Accountability for Cloud Service Providers</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2013
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2013/A4CloudSessionPaper.pdf'>Bringing Accountability to the Cloud: Addressing Emerging Threats and Legal Perspectives</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2013/AMI-threat-critis.pdf'>Threat modeling of AMI</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2013/after-CD-ARES.pdf'>Towards improved understanding and holistic management of the cyber security challenges in power transmission systems</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2013/gprs-sec.pdf'>GPRS Security for Smart Meters</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2013/seeking-risks.pdf'>Seeking Risks: Towards a quantitative risk perception measure</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2013/sinkorswim.pdf'>Sink or SWIM:Information Security Requirements in the Sky</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2012
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/CloudBrokerSLA.pdf'>expressing cloud security requirements in deontic contract languages</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/Privacy-Enhancing-Technologies-for-Information-Control.pdf'>Privacy Enhancing Technologies for Information Control</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/a4cloud.pdf'>Accountability for Cloud and Other Future Internet Services</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/drizzle.pdf'>Drizzle: The RAIN Prototype</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/measure.pdf'>Hunting for Aardvarks: Can Software Security be Measured?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/sla.pdf'>Security SLAs – an idea whose time has come?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/thunder-post.pdf'>Thunder in the Clouds: Security Challenges and Solutions for Federated Clouds</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2012/thunder.pdf'>Thunder in the Clouds: Security Challenges and Solutions for Federated Clouds</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2011
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2011/CloudSecuritySLA-Closer.pdf'>Security in Service Level Agreements for Cloud Computing</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2011/Cyber-Security-Challenges.pdf'>Cyber Security Challenges in Smart Grids</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2011/Not-Ready-for-Prime-Time_-A-Survey-on-Security-in-Model-Driven-Development.pdf'>Not Ready for Prime Time: A Survey on Security in Model Driven Development</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2011/batcave.pdf'>BatCave: Adding Security to the BATMAN Protocol</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2011/rain-protocol-author.pdf'>A Cryptographic Protocol for Communication in a Redundant Array of Independent Net-storages</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2010
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2010/HICSS_2010.pdf'>Managing emerging information security risks during transitions to Integrated Operations</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2010/farewell.pdf'>A Farewell to Trust: An Approach to Confidentiality Control in the Cloud</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2010/probabilistic-JIT.pdf'>A Probabilistic Approach to Information Control</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2010/reference-deployment-jsuper-author.pdf'>Reference Deployment Models for Eliminating User Concerns on Cloud Security</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2010/road2hell.pdf'>The road to Hell is paved with good intentions: A story of (in)secure software development</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2010/straight-and-narrow-IJSSE-1-3_%20article.pdf'>Agile Software development:the Straight and narrow path to Secure Software?</a></li> 
-                        </ul>
-                    </li>
-
-                    <li>2009
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2009/OASIS-IWSCN.pdf'>A secure MANET routing protocol for first responders</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2009/oasis_requirements.pdf'>Securityrequirements for MANETS used in emergency and rescue operations</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2009/semanticcloudcom.pdf'>Privacy in a semantic cloud: What’s trust got to do with it?</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2009/zero.pdf'>Where Only Fools Dare to Tread: An Empirical Study on the Prevalence of Zero-dayMalware</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2008
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2008/IRMA_atc.pdf'>A Study of Information Security Practice in a Critical Infrastructure Application</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2008/MMS_uic.pdf'>An Analysis of the Manufacturing Messaging Specification Protocol</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2008/jaatun-asset.pdf'>Covering Your Assets in Software Engineering</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2008/opc_uic.pdf'>Penetration Testing of OPC as part of Process Control Systems</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2008/sesa_atc.pdf'>Secure Safety: Secure Remote Access to Critical Safety Systems in Offshore Installations</a></li>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2008/testing.pdf'>Learning from Software Security Testing</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2007
-                        <ul>
-                            <li>No articles were published this year.</li>
-                        </ul>
-                    </li>
-
-                    <li>2006
-                        <ul>
-                            <li><a target='_blank' href='http://jaatun.no/papers/2006/kerberos_ifipsec.pdf'>Secure Fast Handover in an Open BroadbandAccess Network using Kerberos-style Tickets</a></li>
-                        </ul>
-                    </li>
-
-                    <li>2005
-                        
-                        <ul>
-                            <li>
-                                <a target='_blank' href="http://jaatun.no/papers/2005/oban_nordsec.pdf">A Security Architecture foran Open Broadband Access Network</a>
-                            </li>
-                        </ul>
-
-                    </li>
-
-
-                </ul>
-            </div>
+                <input type="button" id="button-articles" value='Generer tilfeldig artikkel' onclick="randomArticle()"> 
+            </div>  
         </div>
-    </div> -->
+    </div>
 
     <table id="artikler-tabell">
         <caption>Artikler</caption>
         <tbody id="artikler-tabell-body">
         </tbody>
     </table>
-   
-   <!-- <footer id='bunn'>
-        <img src="img/logo.png" alt="logo" id='logo1' >
-        <ul id="navbar_bunn">
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="om_oss.html">Om oss</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="test_1.html">Artikler</a></li>
-        </ul>
-    </footer> -->
 
     <script src='js/artikler.js'></script>
     <script src="js/nav.js"></script>
