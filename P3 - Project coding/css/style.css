@@ -99,6 +99,19 @@ tr:not(:last-child) > td {
 	text-decoration: underline;
 }
 
+#Forskerpool {
+	color: #3b3b3d;
+	text-decoration: none;
+}
+
+#Forskerpool:hover {
+	text-decoration: underline;
+}
+
+#Forskerpool:visited {
+	color: #3b3b3d;
+}
+
 /* Makes the caption above table left-aligned and bold */
 caption {
 	text-align: left;
