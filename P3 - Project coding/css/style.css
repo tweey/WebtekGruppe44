@@ -67,7 +67,7 @@ table {
 tr, td {
 	text-align: left;
 	font-size: 1.1em;
-	padding: 15px;
+	padding: 15px 0;
 }
 
 /* Adds a grey border between every table element except the last */
