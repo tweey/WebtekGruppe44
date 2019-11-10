@@ -3,48 +3,72 @@
     font-family:"Arial", Helvetica, sans-serif;
 }
 
-input[type=text],
-input[type=tel],
-input[type=email],
-textarea{
-    width:100%;
-    padding:12px;
-    border: 1px solid #ccc;
-    margin-top:6px;
-    margin-bottom: 16px;
-    resize:vertical;
-}
-
-input[type=submit]{
-    background-color: #000000; 
-    color:white;
-    padding:10px 20px;
-    margin:auto;
-    border:none;
-    cursor:pointer;
-}
-
-input[type=submit]:hover{
-    background-color:#45a049;
+body{
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper{
-    border-radius: 5px;
-    padding:10px;
+    margin-top:8%;
+    width: 85%;
+    max-width:1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow: 0 0 20px #000000000b3;
 }
 
-.column{
-    float:left;
-    width:50%;
-    margin-top:6px;
-    padding:20px;
+.wrapper h1{
+    margin-top:0;
+    font-weight:200; 
 }
 
-.row:after{
-    content: "";
-    display:table;
-    clear:both;
+.kontakt{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
 }
+
+.kontakt label{
+    display:block;
+    text-align:left;
+    color:#333;
+    font-size:14px;
+}
+
+.kontakt input,.kontakt textarea{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+textarea{
+    height:150px;
+}
+
+#btn{
+    color:white;
+    background-color: #000000;
+    padding: 10px 15px;
+    margin:10px auto;
+    border:none;
+    cursor:pointer;
+    width:100%;
+}
+
+#btn:hover{
+    background-color:#45a049;
+}
+
+
+
 
 
 input[type=email]:focus:valid{
@@ -77,7 +101,7 @@ input[type=email]:focus:valid{
     transform: translateY(-50%);
     transform: translateX(-50%);
 }
-]
+
 @media screen and (max-width:900px){
     .column,input[type=submit]{
         width:100%;
