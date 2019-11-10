@@ -28,7 +28,6 @@ function verifisering() {
     })
     
 }
-
 function sendMail() {
     let tittel = kontaktinfo.emne.value;
     let innhold = kontaktinfo.melding.value;
