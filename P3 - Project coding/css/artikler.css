@@ -1,0 +1,72 @@
+/* Position of the button in artikler.html */
+.button{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Design of the button in artikler.html */
+#button-articles {
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	margin: 15px;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	background-color: #23894E;
+	box-shadow: 0px 5px 0px 0px #15522E;
+}
+
+/* When the button is clicked, it should move 5px downwards for a more interactive design */
+#button-articles:active {
+	transform: translate(0px, 5px);
+	-webkit-transform: translate(0px, 5px);
+	box-shadow: 0px 1px 0px 0px;
+}
+
+/* Make the color of the button lighter when hovered */
+#button-articles:hover {
+	background-color: #4EA071;
+}
+
+/* Center-aligning the text-content in artikler.html */
+#container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 40px;
+  }
+
+  /* Setting the width of text-content in artikler.html */
+#articles_info{
+	width:60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Center-aligning the text-content in artikler.html */
+#container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 40px;
+  }
+
+#articles_info{
+	width:60%;
+}
