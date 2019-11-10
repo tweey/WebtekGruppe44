@@ -12,18 +12,25 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-
+#bunn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #navn-tittel {
   text-align: center;
 }
 
 #map {
-  margin: 0 auto;
+  height: 200px;
   padding: 10%;
-  width: 50%;
-  height: 20%;
+  margin: 15px 10px;
 }
 
+#maptxt{
+  text-align: center;
+}
 #forskerpool {
 	color: #3b3b3d;
 	text-decoration: none;
@@ -39,9 +46,6 @@ main {
 
 
 @media screen and (max-width: 900px) {
-  #ombilde {
-    width: 100vw;
-  }
   #omfakta {
     width: 100vw;
     align-items: center;
