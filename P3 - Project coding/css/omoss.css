@@ -48,9 +48,11 @@
 
 #map {
   width: 80%;
-  height: 200px
+  height: 200px;
+  margin: 10% 12%;
 }
 
+<<<<<<< HEAD
 */ 
 
 main {
@@ -77,6 +79,19 @@ main {
 #map {
   width: 80%;
   height: 200px
+=======
+#Forskerpool {
+	color: #3b3b3d;
+	text-decoration: none;
+}
+
+#Forskerpool:hover {
+	text-decoration: underline;
+}
+
+#Forskerpool:visited {
+	color: #3b3b3d;
+>>>>>>> bc1671b0c6c0341a1764e40881e2bd3f1a1b8e66
 }
 
 

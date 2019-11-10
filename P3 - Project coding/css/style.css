@@ -25,16 +25,14 @@ body, html {
 #main-slogan {
 	font-family: arial, sans-serif;
 	color: #3b3b3d;
-	width: 60%;
-	margin: 25px 30px;
+	margin: 0 5%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 10%;
 }
 
 /* Further positioning of the slogan */
 .slogan{
-	margin: 3%;
+	margin: 3% 0;
 	font-size: 400%;
 }
 
@@ -99,20 +97,6 @@ tr:not(:last-child) > td {
 	text-decoration: underline;
 }
 
-#Forskerpool {
-	color: #3b3b3d;
-	text-decoration: none;
-}
-
-#Forskerpool:hover {
-	text-decoration: underline;
-}
-
-#Forskerpool:visited {
-	color: #3b3b3d;
-}
-
-
 @media screen and (max-width: 900px) {
 	#main {
 		display: flex;
@@ -120,9 +104,12 @@ tr:not(:last-child) > td {
 	}
 	#main-slogan {
 		width: 100%;
-		margin-left: 25%;
 	}
 	#main-text {
 		width: 80%;
+	}
+	.slogan {
+		font-size: 8vw;
+		padding: 0 10%;
 	}
 }
