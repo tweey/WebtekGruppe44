@@ -33,7 +33,7 @@
                 <p>Fyll inn kontaktskjema nedenfor for å komme i kontakt med oss.</p>
         <div class="row">
                 <div class="column">
-                        <form class="kontakt">
+                        <form class="kontakt" action="" method="GET">
                                 <label for="fnavn">Fornavn*</label>
                                 <input type="text" id="fnavn" name="fornavn" placeholder="Ola" required>
 
@@ -51,8 +51,8 @@
 
                                 <label for="melding">Melding</label>
                                 <textarea id="melding" name="melding" placeholder="Skriv noe.."></textarea>
-                                
-                                <input type="submit" value="Send inn">
+                        
+                                <input type="submit" id="btn" value="Send inn">
                         </form>
                 </div>
         </div>

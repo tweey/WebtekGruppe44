@@ -64,6 +64,20 @@ input[type=email]:focus:valid{
     border: 1px solid green;
 }
 
+.popup{
+    width: 60%;
+    height: 30%;
+    border: 3px solid black;
+    border-radius: 13px;
+    background-color: #f9f9f1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+]
 @media screen and (max-width:900px){
     .column,input[type=submit]{
         width:100%;
