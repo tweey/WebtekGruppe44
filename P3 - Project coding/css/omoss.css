@@ -44,8 +44,23 @@ main {
 }
 #map {
   width: 80%;
-  height: 200px
+  height: 200px;
+  margin: 10% 12%;
 }
+
+#Forskerpool {
+	color: #3b3b3d;
+	text-decoration: none;
+}
+
+#Forskerpool:hover {
+	text-decoration: underline;
+}
+
+#Forskerpool:visited {
+	color: #3b3b3d;
+}
+
 
 @media screen and (max-width: 900px) {
   #topp {
