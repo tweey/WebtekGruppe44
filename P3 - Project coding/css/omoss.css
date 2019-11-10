@@ -1,4 +1,4 @@
-main {
+/*main {
   display: flex;
   flex-direction: column;
 }
@@ -25,6 +25,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
 #bunn {
   display: flex;
   flex-direction: row;
@@ -32,25 +33,54 @@ main {
   align-items: center;
   padding: 70px 40px;
 }
+
 #bunntxt {
   width: 60%;
 }
+
 #mapbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 40%; 
 }
+
 #map {
   width: 80%;
   height: 200px
 }
 
+*/ 
+
+main {
+  margin: auto;
+  width: 65%;
+  padding: 10%;
+}
+
+#ombilde img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navn-tittel {
+  text-align: center;
+}
+
+
+
+#map {
+  width: 80%;
+  height: 200px
+}
+
+
 @media screen and (max-width: 900px) {
-  #topp {
-    flex-direction: column;
-  }
   #ombilde {
     width: 100vw;
   }
@@ -58,8 +88,7 @@ main {
     width: 100vw;
     align-items: center;
   }
-  #bunn {
-    flex-direction: column;
+
   }
   #bunntxt {
     width: 100%;
