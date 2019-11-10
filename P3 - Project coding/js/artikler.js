@@ -78,7 +78,10 @@ var articleLinks = ['http://jaatun.no/papers/2005/oban_nordsec.pdf',
 function randomArticle() {
         var randomNumber = Math.round(Math.random() * 72);
 
-        window.location = articleLinks[randomNumber];
+        let aEl = document.createElement("a");
+        aEl.href = articleLinks[randomNumber];
+        aEl.setAttribute('target', '_blank');
+        aEl.click();
 }
 
 
