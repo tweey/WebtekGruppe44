@@ -1,0 +1,142 @@
+/* Make browsers take any border and padding into account,
+when specifying width and height to an element */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Sets background color and resets margin and padding,
+to better accommodate same design throughout different browsers */
+body, html {
+	background-color: #f9f9f1;
+	margin: 0;
+@@ -17,6 +21,7 @@ body, html {
+	align-items: center;
+}
+
+/* Specifiying font, color, size and position of the slogan in index.html */
+#main-slogan {
+	font-family: arial, sans-serif;
+	color: #3b3b3d;
+@@ -27,11 +32,13 @@ body, html {
+	margin-left: 10%;
+}
+
+/* Further positioning of the slogan */
+#slogan{
+	margin: 3%;
+	font-size: 400%;
+}
+
+/* Specifiying font, size and positioning of the informatic text in index.html */
+#main-text {
+	font-family: arial, sans-serif;
+	font-size: 90%;
+@@ -42,7 +49,9 @@ body, html {
+
+}
+
+/* Designing 'article tables' in both index.html and artikler.html */
+table {
+	/* Horizontally centering the table */
+	text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+@@ -51,56 +60,60 @@ table {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+	/* Giving the table a black border-top*/
+    border-collapse: collapse;
+    border-top: 3px solid black;
+    border-color: #474748;
+}
+
+td {
+	line-height: 1.8em;	
+    border-top: 3px solid #474748;
+}
+
+/* More space between table elements */
+tr, td {
+	text-align: left;
+	font-size: 1.1em;
+	padding: 15px;
+}
+
+/* Adds a grey border between every table element except the last */
+tr:not(:last-child) > td {
+	border-bottom: 2px solid black;
+	border-color: #BBBBBB;
+	border-bottom: 2px solid #BBBBBB;
+
+}
+
+/* Sets a grey color to the date in table */
+.article-date {
+	color: #BBBBBB;
+}
+
+/* Sets a grey color to the hyperlink and removes any text-decoration */
+.article-dl > a {
+	color: #BBBBBB;
+	text-decoration: none;
+}
+
+/* When the hyperlink is visited, the color should remain grey */
+.article-dl > a:visited {
+	color: #BBBBBB;
+}
+
+/* Hovering hyperlink gives it an underline */
+.article-dl > a:hover {
+	text-decoration: underline;
+}
+
+/* Makes the caption above table left-aligned and bold */
+caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+/* Position of the button in artikler.html */
+.button{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Design of the button in artikler.html */
+#button-articles {
+	border-radius: 5px;
+	padding: 10px 20px;
+@@ -115,16 +128,19 @@ caption {
+	box-shadow: 0px 5px 0px 0px #15522E;
+}
+
+/* When the button is clicked, it should move 5px downwards for a more interactive design */
+#button-articles:active {
+	transform: translate(0px, 5px);
+	-webkit-transform: translate(0px, 5px);
+	box-shadow: 0px 1px 0px 0px;
+}
+
+/* Make the color of the button lighter when hovered */
+#button-articles:hover {
+	background-color: #4EA071;
+}
+
+/* Center-aligning the text-content in artikler.html */
+#container {
+	display: flex;
+	flex-direction: row;
+@@ -133,6 +149,7 @@ caption {
+	padding: 10px 40px;
+  }
+
+/* Setting the width of text-content in artikler.html */
+#articles_info{
+	width:60%;
+}
